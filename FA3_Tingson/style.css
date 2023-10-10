@@ -13,6 +13,7 @@ h1{
 	padding: 10px 15px 10px 15px;
 	width: 250px;
 	margin-bottom: 20px;
+	margin: 0 auto; 
 	background-color: #568469;
 }
 
@@ -25,6 +26,7 @@ p {
 	border-width: 3px;
 	border-style: dashed dotted double solid;
 	width: 500px;
+	margin: 0 auto; 
 }
 
 span {
@@ -33,4 +35,5 @@ span {
 	color: rgb(45,78,29);
 	margin-left: 2px;
 	margin-right: 5px;
+	margin: 0 auto; 
 }
