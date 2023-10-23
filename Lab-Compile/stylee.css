@@ -1,0 +1,24 @@
+body{
+	background-image: url("bgg.jpg");
+	background-repeat: no-repeat;
+	margin: 0px;
+	background-size: cover;
+}
+h1{
+	text-align: center;
+	font-family: "Berlin Sans FB", "Times New Roman";
+	color: RGB(253,191,181);
+}
+h3{
+	text-align: center;
+	font-family: "Segoe Print", "Arial";
+	color: RGB(234,195,178);
+}
+div{
+	text-align: center;
+	font-family: "Bell MT", "Arial";
+	
+}
+a{
+	color: RGB(183,161,158);
+}
