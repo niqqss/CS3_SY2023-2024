@@ -1,0 +1,105 @@
+body {
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#gradient {
+	text-align: left;
+	margin: 10px 10px 10px 10px;
+	font-family: "Algerian";
+	font-size: 30px;
+	background: -webkit-linear-gradient(RGB(169,152,31), RGB(86,71,2), RGB(68,48,1));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h1{
+	text-align: center;
+	margin-top: 0;
+	margin-right: 450px;
+	font-family: "Snap ITC";
+	font-size: 35px;
+	letter-spacing: 2px;
+	background: -webkit-linear-gradient(RGB(143,138,139), RGB(126,4,3), RGB(1,44,7), RGB(84,68,1), RGB(1,33,64), RGB(143,138,139));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+p {
+	text-align: center;
+	margin-right: 550px;
+	margin-left: 75px;
+	font-family: "Agency FB";
+	font-size: 20px;
+	color: RGB(141,137,138);	
+}
+
+span {
+	background: -webkit-linear-gradient(RGB(143,138,139), RGB(86,71,2), RGB(143,138,139));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.nav {
+	position: relative;
+	width: 50%;
+}
+
+.navigation {
+	opacity: 1;
+	display: block;
+	width: 85%;
+	height: auto;
+	transition: .9s ease;
+	backface-visibility: hidden;
+	margin-left: 110px;
+	margin-right: 450px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+
+.middle {
+	transition: .9s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%)
+}
+
+.nav:hover .navigation {
+	opacity: 0.4;
+}
+
+.nav:hover .middle {
+	opacity: 1;
+}
+
+.text {
+	background-color: RGB(18, 24,36);
+	color: RGB(191,192,189);
+	font-family: "Segoe Print";	
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-left: 135px;
+	border-radius: 10px;
+}
+
+.contact {
+	color: RGB(143,138,139);
+	margin-left: 270px;
+}
+
+.share {
+	color: RGB(143,138,139);
+	margin-left: 120px;
+}
+
+
+
+
