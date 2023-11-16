@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formative Assessment 6</title>
+		<style>
+			a:link {
+				color: rgb(65,113,249);
+				background-color: rgb(234,234,66);
+				text-decoration: none; 
+			}
+
+			a:visited {
+				color: rgb(250,60,50);
+				background-color: rgb(231,196,139);
+			}
+
+			a:hover {
+				color: white;
+				background-color: rgb(107,197,103);
+			}
+
+			a:active {
+				color: rgb(107,197,103);
+				background-color: rgb(214,202,156)
+			}
+			
+			div {
+				width: 150px;
+				height: 150px; 
+				padding: 10px;
+				text-align: center; 
+				border: solid black 3px;
+			} 
+
+			#div1:target {
+				background-color: green;
+				color: white;
+				border-style: dotted;
+			}
+
+			#div2:target {
+				background-color: yellow;
+				color: pink;
+				border-style: dashed;
+			}
+
+		</style>
+	</head>
+	<body>
+		<a href="#div1">Link 1</a>
+		<a href="#div2">Link 2</a>
+		<br> 
+		<br>
+		<div id="div1">Div 1</div>
+		<br>
+		<div id="div2">Div 2</div>
+	</body>
+</html>
