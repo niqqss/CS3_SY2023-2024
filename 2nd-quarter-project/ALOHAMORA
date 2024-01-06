@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alohamora! Unlocking The Doors Of Harry Potter Characters</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<ul class="home">
+			<li class="hm"><a id="gradient" href="ALOHAMORA.html">ALOHAMORA!</a></li>
+			<li class="hm"><a id="gradient_1" href="ALOHAMORA_1.html">THE GOLDEN TRIO</a></li>
+			<li class="hm"><a id="gradient_2" href="ALOHAMORA_2.html">THE MARAUDERS</a></li>
+			<li class="hm"><a id="gradient_3" href="ALOHAMORA_3.html">THE WEASLEYS</a></li>
+			<li class="hm"><a id="gradient_4" href="ALOHAMORA_4.html">THE BLACK SISTERS</a></li>
+		</ul>
+		<section> 
+			<header>ALOHAMORA! UNLOCKING THE DOORS OF HARRY POTTER CHARACTERS</header>
+			<article>Looking for information about the <span>HARRY POTTER</span> characters? What are they, and where did they come from?
+				This website has you covered!</article>
+			<article>A website that explores the lives and secrets of the characters in the famous book series "<span>Harry Potter</span>". 
+				This aims to give readers the oppoortunity to discover and learn about the 
+				magical lives of the magical characters in the series, as well as some amusing
+				facts about them. This will provide crucial and additional information about 
+				several characters in the series.</article>
+		</section> 
+		<nav>
+			<img src="nav.jpg" alt="This is a picture" class="navigation">
+			<div class="middle">
+				<a class="text" href="Alohamora_1.html">View characters</a>
+			</div>
+		</nav>
+		<div class="socials">
+			<a href="https://www.facebook.com/harrypotter?mibextid=ZbWKwL">
+				<div class="fb"></div>
+			</a>
+			<a href="https://twitter.com/HarryPotter">
+				<div class="twt"></div>
+			</a>
+		</div>
+	</body>
+</html>
