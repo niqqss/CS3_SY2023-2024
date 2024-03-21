@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Coding Challenge 5
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background-color: lightseagreen;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <h1> Modified FLAMES </h1>
+
+        <button onclick="flames()">Match Names</button>	
+        <h3 id="name"></h3>
+
+        <h4>FLAMES Result:</h4>
+        <h3 id="result"></h3>
+
+
+        <script>
+            function flames(){
+				var name1 = prompt("Please enter a name: ");
+				var name2 = prompt("Please enter another name: ");
+				var combine = name1 + name2;
+			  
+				document.getElementById("name").innerHTML=(name1 + " ❤ " + name2);
+			   
+				var count = combine.replace(" ","").length;
+				var result = count%6;
+			   
+				if (result==1) {
+					document.getElementById("result").innerHTML=(name1 + " and " + name2 + " are Friends");
+				}
+				else if (result==2){
+					document.getElementById("result").innerHTML=(name1 + " and " + name2 + " are Lovers");
+				}
+				else if (result==3){
+					document.getElementById("result").innerHTML=(name1 + " and " + name2 + " are Acquaintances");
+				}
+				else if (result==4){
+					document.getElementById("result").innerHTML=(name1 + " and " + name2 + " will soon undergo Marriage");
+				}
+				else if (result==5){
+					document.getElementById("result").innerHTML=(name1 + " and " + name2 + " are Enemies");
+				}
+				else {
+					document.getElementById("result").innerHTML=(name1 + " and " + name2 + " are Sweethearts");
+				}
+				
+            }
+			
+			 
+			 
+			
+			
+        </script>
+    </body>
+</html>
